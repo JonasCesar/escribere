@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="tabPaneConsoantes" prefHeight="650.0" prefWidth="1200.0" stylesheets="@../css/tabPaneConsoantes.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ConsoantesController">
+   <children>
+      <TabPane layoutY="62.0" prefHeight="541.0" prefWidth="1100.0" side="BOTTOM" stylesheets="@../css/tabPaneConsoantes.css" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Regulares">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="273.0" layoutY="155.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="269.0" layoutY="213.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="272.0" layoutY="273.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="269.0" layoutY="334.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="526.0" layoutY="155.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="519.0" layoutY="215.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="519.0" layoutY="334.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="519.0" layoutY="273.0" mnemonicParsing="false" text="Button" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab text="Irregulares previsiveis">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="238.0" layoutY="174.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="560.0" layoutY="174.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="238.0" layoutY="254.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="560.0" layoutY="254.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="560.0" layoutY="336.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="238.0" layoutY="336.0" mnemonicParsing="false" text="Button" />
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Irregulares parcialmente previsiveis">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="266.0" layoutY="173.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="624.0" layoutY="173.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="425.0" layoutY="173.0" mnemonicParsing="false" text="Button" />
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Relaçoes arbitrarias">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="450.0" layoutY="242.0" mnemonicParsing="false" text="Button" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

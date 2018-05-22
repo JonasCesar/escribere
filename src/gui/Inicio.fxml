@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="655.0" prefWidth="1205.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.InicioController">
+   <children>
+      <TabPane fx:id="tabPaneGeral" prefHeight="650.0" prefWidth="1200.0" stylesheets="@../css/tabPaneGeral.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab fx:id="tabVogais" closable="false" style="-fx-background-color: #90EE90;" text="Vogais">
+               <content>
+                  <AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1200.0" style="-fx-background-color: #90EE90;">
+                     <children>
+                         <fx:include fx:id="vogais" source="Vogais.fxml" />
+                     </children>
+                  </AnchorPane>
+               </content>
+          </Tab>
+          <Tab fx:id="tabConsoantes" style="-fx-background-color: #F4A460;" text="Consoantes">
+               <content>
+                  <AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: #F4A460;">
+                     <children>
+                        <fx:include fx:id="consoantes" source="Consoantes.fxml" />
+                     </children>
+                  </AnchorPane>
+               </content></Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

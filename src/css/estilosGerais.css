@@ -1,0 +1,14 @@
+/* 
+    Created on : 24/02/2017, 16:01:06
+    Author     : jonas
+*/
+
+.button{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+}

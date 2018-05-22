@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/04/2018, 09:41:47
+    Author     : jonas
+*/
+
+
+#tabPaneConsoantes{
+    
+    -fx-font-size: 18px;
+    
+   
+}
+
+/*.button{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+}*/

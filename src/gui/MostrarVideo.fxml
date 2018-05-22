@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MostrarVideoController">
+   <children>
+      <Text layoutX="174.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="exibir Video" />
+      <MediaView fx:id="mediaView" fitHeight="400.0" fitWidth="400.0" layoutX="35.0" layoutY="67.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="550.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../figuras/bola.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="550.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../figuras/telefone.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="550.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../figuras/uva.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="192.0" layoutY="494.0" mnemonicParsing="false" onAction="#replay" text="replay" />
+   </children>
+</AnchorPane>
