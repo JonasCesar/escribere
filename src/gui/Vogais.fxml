@@ -8,11 +8,11 @@
 
 <AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1200.0" stylesheets="@../css/tabPaneVogais.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.VogaisController">
    <children>
-      <TabPane fx:id="tabPaneVogais" prefHeight="603.0" prefWidth="1200.0" side="BOTTOM" tabClosingPolicy="UNAVAILABLE">
+      <TabPane fx:id="tabPaneVogais" prefHeight="612.0" prefWidth="1200.0" side="BOTTOM" tabClosingPolicy="UNAVAILABLE">
         <tabs>
           <Tab text="Vogais Orais">
             <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="321.0" prefWidth="440.0">
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="568.0" prefWidth="1208.0">
                      <children>
                         <Button layoutX="176.0" layoutY="267.0" mnemonicParsing="false" onAction="#exibirVideo" prefHeight="51.0" prefWidth="52.0" text="a" />
                         <Button layoutX="301.0" layoutY="268.0" mnemonicParsing="false" onAction="#exibirVideo" prefHeight="50.0" prefWidth="51.0" text="i" />
@@ -38,56 +38,69 @@
                      </children></AnchorPane>
             </content>
           </Tab>
-            <Tab text="Ditongos Crescentes">
+            <Tab text="Ditongos">
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
-                        <Button layoutX="97.0" layoutY="217.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="234.0" layoutY="217.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="97.0" layoutY="274.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="234.0" layoutY="274.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="97.0" layoutY="334.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="97.0" layoutY="396.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="234.0" layoutY="396.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="97.0" layoutY="158.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="97.0" layoutY="464.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="234.0" layoutY="334.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="222.0" layoutY="158.0" mnemonicParsing="false" text="Button" />
-                        <Label layoutX="170.0" layoutY="74.0" text="Orais" />
-                        <Button layoutX="684.0" layoutY="274.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="684.0" layoutY="217.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="684.0" layoutY="164.0" mnemonicParsing="false" text="Button" />
-                        <Label layoutX="709.0" layoutY="88.0" text="Nasais" />
-                     </children></AnchorPane>
-              </content>
-            </Tab>
-            <Tab text="Ditongos decrescentes">
-              <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                     <children>
-                        <Button layoutX="59.0" layoutY="148.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="162.0" layoutY="148.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="59.0" layoutY="202.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="59.0" layoutY="252.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="59.0" layoutY="301.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="59.0" layoutY="344.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="59.0" layoutY="389.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="159.0" layoutY="202.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="162.0" layoutY="258.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="162.0" layoutY="301.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="159.0" layoutY="344.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="162.0" layoutY="389.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="59.0" layoutY="441.0" mnemonicParsing="false" text="Button" />
-                        <Label layoutX="59.0" layoutY="79.0" text="Orais" />
-                        <Button layoutX="646.0" layoutY="136.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="776.0" layoutY="132.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="649.0" layoutY="195.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="776.0" layoutY="195.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="646.0" layoutY="258.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="776.0" layoutY="258.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="646.0" layoutY="328.0" mnemonicParsing="false" text="Button" />
-                        <Button layoutX="776.0" layoutY="328.0" mnemonicParsing="false" text="Button" />
-                        <Label layoutX="649.0" layoutY="72.0" text="Nasais" />
+                        <TabPane layoutY="-6.0" prefHeight="565.0" prefWidth="1200.0" tabClosingPolicy="UNAVAILABLE">
+                          <tabs>
+                            <Tab text="Ditongos Crescentes">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <Button layoutX="98.0" layoutY="111.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="98.0" layoutY="157.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="219.0" layoutY="165.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="98.0" layoutY="376.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="219.0" layoutY="319.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="98.0" layoutY="319.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="219.0" layoutY="261.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="98.0" layoutY="261.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="219.0" layoutY="213.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="98.0" layoutY="207.0" mnemonicParsing="false" text="Button" />
+                                          <Label layoutX="183.0" layoutY="59.0" text="Orais" />
+                                          <Button layoutX="219.0" layoutY="111.0" mnemonicParsing="false" text="Button" />
+                                          <Label layoutX="896.0" layoutY="67.0" text="Nasais" />
+                                          <Button layoutX="944.0" layoutY="109.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="823.0" layoutY="155.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="823.0" layoutY="109.0" mnemonicParsing="false" text="Button" />
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                            <Tab text="Ditongos decrescentes">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="536.0" prefWidth="1200.0">
+                                       <children>
+                                          <Button layoutX="118.0" layoutY="94.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="249.0" layoutY="94.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="118.0" layoutY="146.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="249.0" layoutY="154.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="118.0" layoutY="214.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="249.0" layoutY="214.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="249.0" layoutY="277.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="118.0" layoutY="277.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="239.0" layoutY="392.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="118.0" layoutY="440.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="118.0" layoutY="392.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="249.0" layoutY="333.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="118.0" layoutY="333.0" mnemonicParsing="false" text="Button" />
+                                          <Label layoutX="213.0" layoutY="53.0" text="Orais" />
+                                          <Button layoutX="822.0" layoutY="277.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="953.0" layoutY="277.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="953.0" layoutY="214.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="822.0" layoutY="214.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="953.0" layoutY="154.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="822.0" layoutY="146.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="953.0" layoutY="94.0" mnemonicParsing="false" text="Button" />
+                                          <Button layoutX="822.0" layoutY="94.0" mnemonicParsing="false" text="Button" />
+                                          <Label layoutX="917.0" layoutY="46.0" text="Nasais" />
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                          </tabs>
+                        </TabPane>
                      </children></AnchorPane>
               </content>
             </Tab>

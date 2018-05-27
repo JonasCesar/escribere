@@ -27,8 +27,8 @@ public class VogaisController implements Initializable {
     
     @FXML
     private TabPane tabPaneVogais;
-    //String video2 = getClass().getResource("/video/B.mp4").toString();
-    public static String video2 = "";
+    //String videoApresentacao = getClass().getResource("/video/B.mp4").toString();
+    public static String videoApresentacao = "";
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -47,8 +47,9 @@ public class VogaisController implements Initializable {
     private void exibirVideo(ActionEvent event) {
         
         try {
-            
-            video2 = getClass().getResource("/video/B.mp4").toString();
+            String BotaoEscolhido = ((Button) event.getSource()).getText();
+            String URLVideo = "/video/" + BotaoEscolhido + ".mp4";
+            videoApresentacao = getClass().getResource(URLVideo).toString();
             
             System.out.println("MOSTRA O VIDEO PORRA");
             Parent janelaVideo = FXMLLoader.load(getClass().getResource("/gui/MostrarVideo.fxml"));      

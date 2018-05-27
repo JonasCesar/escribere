@@ -26,7 +26,7 @@ public class MostrarVideoController implements Initializable {
 
     VogaisController vogais = new VogaisController();
     
-    private String VIDEO_URL = getClass().getResource("/video/B.mp4").toString();
+    //private String VIDEO_URL = getClass().getResource("/video/B.mp4").toString();
     
     //private String VIDEO_URL = "";
     
@@ -65,7 +65,7 @@ public class MostrarVideoController implements Initializable {
     }*/
     
     public void loadVideo(){
-        String video = vogais.video2;//pegando o endereço do vídeo da classe VOGAIS
+        String video = vogais.videoApresentacao;//pegando o endereço do vídeo da classe VOGAIS
         Media media = new Media(video);
         player = new MediaPlayer(media);
         //mediaView = new MediaView(player);
@@ -84,8 +84,8 @@ public class MostrarVideoController implements Initializable {
 
     @FXML
     private void replay(ActionEvent event) {
-        
-        Media media = new Media(VIDEO_URL);
+        String video = vogais.videoApresentacao;
+        Media media = new Media(video);
         player = new MediaPlayer(media);
         mediaView.setMediaPlayer(player);
         player.play();
